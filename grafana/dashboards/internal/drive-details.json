@@ -10,7 +10,7 @@
         "enable": true,
         "hide": true,
         "iconColor": "rgba(0, 211, 255, 1)",
-        "name": "Annotations & Alerts",
+        "name": "注释和警报",
         "type": "dashboard"
       }
     ]
@@ -41,7 +41,7 @@
       "tags": [
         "tesla"
       ],
-      "title": "Dashboards",
+      "title": "仪表盘",
       "type": "dashboards"
     }
   ],
@@ -493,7 +493,7 @@
           }
         }
       ],
-      "title": "Drive",
+      "title": "驾驶",
       "type": "timeseries"
     },
     {
@@ -801,7 +801,7 @@
           }
         }
       ],
-      "title": "Elevation",
+      "title": "海拔",
       "type": "timeseries"
     },
     {
@@ -934,7 +934,7 @@
               },
               {
                 "id": "displayName",
-                "value": "Outside Temperature"
+                "value": "室外温度"
               }
             ]
           },
@@ -1071,7 +1071,7 @@
           }
         }
       ],
-      "title": "Temperatures",
+      "title": "温度",
       "type": "timeseries"
     },
     {
@@ -1323,7 +1323,7 @@
           }
         }
       ],
-      "title": "Tire Pressure",
+      "title": "胎压",
       "type": "timeseries"
     },
     {
@@ -1336,7 +1336,7 @@
       },
       "id": 36,
       "panels": [],
-      "title": "More Details",
+      "title": "更多详情",
       "type": "row"
     },
     {
@@ -1428,7 +1428,7 @@
           }
         }
       ],
-      "title": "Odometer (From - To)",
+      "title": "里程表（从-到）",
       "type": "stat"
     },
     {
@@ -1520,7 +1520,7 @@
           }
         }
       ],
-      "title": "Drive Duration",
+      "title": "驾驶时长",
       "type": "stat"
     },
     {
@@ -1604,7 +1604,7 @@
           }
         }
       ],
-      "title": "Selected Duration",
+      "title": "选定时长",
       "type": "stat"
     },
     {
@@ -1737,7 +1737,7 @@
           }
         }
       ],
-      "title": "Speed Histogram ($speed_unit)",
+      "title": "速度直方图（$speed_unit）",
       "transformations": [
         {
           "id": "filterFieldsByName",
@@ -1870,7 +1870,7 @@
           }
         }
       ],
-      "title": "Distance driven",
+      "title": "行驶距离",
       "type": "stat"
     },
     {
@@ -1980,7 +1980,7 @@
           }
         }
       ],
-      "title": "Elevation Summary",
+      "title": "海拔总结",
       "type": "stat"
     },
     {
@@ -2071,7 +2071,7 @@
           }
         }
       ],
-      "title": "Energy consumed (net)",
+      "title": "能耗（净值）",
       "type": "stat"
     },
     {
@@ -2163,7 +2163,7 @@
           }
         }
       ],
-      "title": "Energy recovered",
+      "title": "能量回收",
       "type": "stat"
     },
     {
@@ -2279,7 +2279,7 @@
           }
         }
       ],
-      "title": "Consumption (net)",
+      "title": "能耗（净值）",
       "type": "stat"
     },
     {
@@ -2388,7 +2388,7 @@
           }
         }
       ],
-      "title": "Ø Speed",
+      "title": "平均速度",
       "type": "stat"
     }
   ],
@@ -2454,7 +2454,7 @@
         },
         "definition": "SELECT\n    id as __value,\n    CASE WHEN COUNT(id) OVER (PARTITION BY name) > 1 AND name IS NOT NULL THEN CONCAT(name, ' - ', RIGHT(vin, 6)) ELSE COALESCE(name, CONCAT('VIN ', vin)) end as __text \nFROM cars\nORDER BY display_priority ASC, name ASC, vin ASC;",
         "includeAll": false,
-        "label": "Car",
+        "label": "车辆",
         "name": "car_id",
         "options": [],
         "query": "SELECT\n    id as __value,\n    CASE WHEN COUNT(id) OVER (PARTITION BY name) > 1 AND name IS NOT NULL THEN CONCAT(name, ' - ', RIGHT(vin, 6)) ELSE COALESCE(name, CONCAT('VIN ', vin)) end as __text \nFROM cars\nORDER BY display_priority ASC, name ASC, vin ASC;",
@@ -2552,7 +2552,7 @@
     "refresh_intervals": []
   },
   "timezone": "",
-  "title": "Drive Details",
+  "title": "行驶详情",
   "uid": "zm7wN6Zgz",
   "version": 1
 }
