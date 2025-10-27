@@ -508,7 +508,7 @@
           }
         }
       ],
-      "title": "吸血鬼耗电",
+      "title": "静态耗电",
       "transformations": [
         {
           "id": "merge",
@@ -649,7 +649,7 @@
   },
   "timepicker": {},
   "timezone": "",
-  "title": "吸血鬼耗电",
+  "title": "静态耗电",
   "uid": "zhHx2Fggk",
   "version": 1
 }

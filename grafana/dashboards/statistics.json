@@ -1150,7 +1150,7 @@
       },
       {
         "current": {
-          "text": "month",
+          "text": "月",
           "value": "month"
         },
         "includeAll": false,
@@ -1159,22 +1159,22 @@
         "options": [
           {
             "selected": false,
-            "text": "day",
+            "text": "天",
             "value": "day"
           },
           {
             "selected": false,
-            "text": "week",
+            "text": "周",
             "value": "week"
           },
           {
             "selected": true,
-            "text": "month",
+            "text": "月",
             "value": "month"
           },
           {
             "selected": false,
-            "text": "year",
+            "text": "年",
             "value": "year"
           }
         ],
